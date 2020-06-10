@@ -414,6 +414,7 @@ static struct hw_codec_info bxt_hw_codec_info = {
     .hevc_dec_chroma_formats = EXTRA_HEVC_DEC_CHROMA_FORMATS,
 
     .has_mpeg2_decoding = 1,
+    .has_mpeg2_encoding = 1,
     .has_h264_decoding = 1,
     .has_h264_encoding = 1,
     .has_vc1_decoding = 1,
